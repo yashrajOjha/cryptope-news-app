@@ -11,7 +11,7 @@ import News from './News';
 const {Title} = Typography; //destructuring the title from typography
 const Homepage = () => {
 
-  const { data, isFetching }= useGetCryptosQuery();
+  const { data, isFetching }= useGetCryptosQuery(10);
   //storing data in variables
   const globalStats = data?.data?.stats;
   if (isFetching) return 'Loading...';
@@ -48,7 +48,7 @@ const Homepage = () => {
           <Link to='/cryptocurrencies'>Show More</Link>
         </Title>
       </div>
-      <Cryptocurrencies simplified/>
+      <Cryptocurrencies simplified showmore/>
       {/* simplified will only make us show a specified number of cards on the home page */}
       <div className='home-heading-container'>
         <Title level={2} className='home-title'>
