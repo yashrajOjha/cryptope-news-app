@@ -8,15 +8,25 @@ The news app has a homepage, a cryptocurrencies page, a cryptodetails page, news
 
 The dependencies used for this project can be installed using the following commands:
 - ```npm install antd```
+
 -```npm install --save @ant-design/icons```
+
 -```npm install react-redux```
+
 -```npm install @reduxjs/toolkit```
+
 -```npm install axios```
+
 -```npm install chart.js```
+
 -```npm install html-react-parser```
+
 -```npm install millify```
+
 -```npm install react-chartjs-2```
+
 -```npm install moment```
+
 -```npm install react-router-dom```
 
 Thanks to [Javascript Mastery](https://www.youtube.com/channel/UCmXmlB4-HJytD7wek0Uo97A) who made the amazing tutorial for developing such an application.
