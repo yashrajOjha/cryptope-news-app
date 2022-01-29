@@ -29,6 +29,7 @@ export const cryptoApi = createApi({
         })
     })
 });
+
 //redux toolkit creates a custom hook to access the data fetched
 export const {
     useGetCryptosQuery,
